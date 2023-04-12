@@ -50,7 +50,8 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/color-mode'
   ],
 
   build: {},
