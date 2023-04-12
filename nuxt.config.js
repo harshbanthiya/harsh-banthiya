@@ -2,6 +2,9 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  generate: {
+    dir: 'dist',
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: process.env.GITHUB_USERNAME,
